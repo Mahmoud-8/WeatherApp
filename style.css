@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cff4f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/green-field-over-blue-clear-sky-da-kuk.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#weather-container {
+    text-align: center;
+    background-color: rgba(108, 232, 248, 0.85);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(111, 78, 78, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #1b7ce3;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #2757c6;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    width: 60%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1b7ce3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00b318;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-description {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.weather-icon {
+    display: block;
+    margin-top: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    #weather-container {
+        padding: 20px;
+    }
+}
