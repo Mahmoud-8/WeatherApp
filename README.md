@@ -1,6 +1,5 @@
 # Weather App
-![Alt text](<Screenshot 2023-08-14 at 8.47.46 PM.png>)
-
+![Alt text](Img.png)
 
 ## Description:
 This is a simple weather app that allows users to fetch and display weather information for a given city using the OpenWeatherMap API. The app fetches weather data based on the user's input and displays relevant information along with an appropriate weather icon.
